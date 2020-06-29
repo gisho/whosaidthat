@@ -1,0 +1,136 @@
+.App {
+}
+
+.logodiv {
+  width: 70%;
+  padding-bottom: 10px;
+}
+
+.sharediv {
+  font-family: Helvetica Neue, Arial, serif;
+  font-size: 12pt;
+  width: 70%;
+  padding-top: 20px;
+}
+
+.scorediv {
+  font-family: Helvetica Neue, Arial, serif;
+  font-size: 14pt;
+  padding-right: 20px;
+  margin-top: -30px;
+  color: #1DA1F2;
+}
+
+.logo {
+  width: 350px;
+}
+
+.slogo {
+  height: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+
+.shareRow {
+  padding-top: 15px;
+}
+
+.slogo2 {
+  height: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+
+
+.btn {
+  background-color: #1DA1F2;
+  border-color: #1DA1F2;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.gamediv {
+  font-family: Helvetica Neue, Arial, serif;
+  font-size: 12pt;
+  background-color: #ffffff;
+  padding: 40px;
+  height: 50%;
+  width:70%;
+}
+
+@media screen and (max-width: 540px) {
+  .gamediv {
+    width: 100%;
+  }
+
+  .logo {
+    width: 300px;
+    height: 40px;
+  }
+
+  .sharediv {
+    width: 90%;
+    padding-top: 10px;
+  }
+
+  .leaderBoardDiv {
+    margin-top: 15px;
+  }
+}
+
+.loader {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.questionText {
+  font-weight: bold;
+}
+
+.optionDiv {
+  border: 1px solid #E6ECF0;
+  cursor: pointer;
+  font-size: 11pt;
+  font-weight: bold;
+}
+
+.leaderBoardTable {
+  border: 1px solid #E6ECF0;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.leaderBoardTable td, th {
+  border-bottom: 1px solid #E6ECF0;
+  text-align: right;
+  padding-right: 5px;
+}
+
+.optionDiv:hover{
+  border: 1px solid #1DA1F2;
+  background-color: #F5F8FA;
+}
+
+.authorPic {
+  margin: 10px;
+}
+
+.tweet {
+  font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.App-header {
+  background-color: #E8F6FD;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+

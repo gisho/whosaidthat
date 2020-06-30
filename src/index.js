@@ -28,7 +28,7 @@ ReactDOM.render(
                         <a href="https://netlify.com">
                             <img src="./netlify-logo.png" className="slogo2" alt={"logo"}/>
                         </a>.
-                        See our <a href="https://lambda.store"> &nbsp; blog &nbsp;</a> for more.
+                        See our &nbsp; <a href="https://medium.com/lambda-store/who-said-that-a-tweet-guess-game-implemented-with-serverless-stack-on-netlify-7ae7e9cb0273"> blog </a>&nbsp; for more.
                     </div>
                     <div className="row shareRow">
                         Share this:
